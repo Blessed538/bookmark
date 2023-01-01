@@ -23,7 +23,7 @@ const FAQs = () => {
         </Heading>
         <Text fontSize="20px" lineHeight="1.6" mb={14}>
           We ve got more browsers in the pipeline, please let us know if you ve
-          got a favourite you'd like us to prioritize
+          got a favourite you d like us to prioritize
         </Text>
       </Box>
       <SimpleGrid columns={[1, 2, 3]} gap={8} mb="5rem">
