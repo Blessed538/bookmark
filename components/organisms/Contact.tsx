@@ -14,7 +14,7 @@ const Contact = () => {
             lineHeight={1.2}
             my="1.2rem"
           >
-            Stay up-to-date with what we're doing
+            Stay up to date with what we re doing
           </Text>
         </Container>
         <Container

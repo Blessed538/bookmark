@@ -13,7 +13,7 @@ const Questions = () => {
             Frequently Asked Questions
           </Heading>
           <Text my={8}>
-            Here is some our FAQs. If you have any questions you'd like answered
+            Here is some our FAQs. If you have any questions you d like answered
             please reach out to us
           </Text>
         </Box>
