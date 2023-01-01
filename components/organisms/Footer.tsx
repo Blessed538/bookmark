@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container, Text, Image, Stack, Flex } from "@chakra-ui/react";
+import { Box, Container, Text, Stack, Flex } from "@chakra-ui/react";
 import Logo from "../atoms/Logo";
 import FooterLinks from "../molecules/FooterLinks";
 import { links } from "../../utils/Links";
@@ -34,6 +34,7 @@ const Footer = () => {
               {links.map((link) => (
                 <Box
                   as="li"
+                  key={link.id}
                   textTransform="uppercase"
                   fontSize={["16px"]}
                   color="white"

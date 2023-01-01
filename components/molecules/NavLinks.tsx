@@ -40,8 +40,12 @@ const NavLinks = () => {
           justifyContent="space-between"
           alignItems="center"
         >
-          <Image src="/images/logo-bookmark.svg" />
-          <Image src="/images/icon-hamburger.svg" onClick={() => toggle()} />
+          <Image src="/images/logo-bookmark.svg" alt="bookmark" />
+          <Image
+            src="/images/icon-hamburger.svg"
+            alt="hamburger"
+            onClick={() => toggle()}
+          />
         </Box>
         <Box as="div" mb={open ? "7rem" : "0"}>
           <Stack
@@ -126,16 +130,20 @@ const NavLinks = () => {
           mt={6}
         >
           <Box as="li">
-            <Image src="/images/icon-facebook.svg" />
+            <Image src="/images/icon-facebook.svg" alt="facebook" />
           </Box>
           <Box as="li">
-            <Image src="/images/icon-twitter.svg" />
+            <Image src="/images/icon-twitter.svg" alt="facebook" />
           </Box>
         </Box>
       </Box>
 
       <Box display={{ base: open ? "none" : "block", sm: "none" }}>
-        <Image src="/images/icon-hamburger.svg" onClick={() => toggle()} />
+        <Image
+          src="/images/icon-hamburger.svg"
+          alt="hamburger"
+          onClick={() => toggle()}
+        />
       </Box>
     </Box>
   );

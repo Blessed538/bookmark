@@ -22,9 +22,9 @@ const Question = ({ answer, question, id }: Props) => {
         <Text fontSize={{ base: "13px", md: "18px" }}> {question}</Text>
 
         {show ? (
-          <Image src="/images/icon-arrow.svg" />
+          <Image src="/images/icon-arrow.svg" alt="arrow" />
         ) : (
-          <Image src="/images/icon-arrow.svg" />
+          <Image src="/images/icon-arrow.svg" alt="arrow" />
         )}
       </Box>
       {show && (

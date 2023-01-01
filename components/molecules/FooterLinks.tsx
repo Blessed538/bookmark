@@ -9,8 +9,8 @@ const FooterLinks = () => {
       justifyContent="center"
       gap={8}
     >
-      <Image src="/images/icon-facebook.svg" objectFit="cover" />
-      <Image src="/images/icon-twitter.svg" objectFit="cover" />
+      <Image src="/images/icon-facebook.svg" objectFit="cover" alt="facebook" />
+      <Image src="/images/icon-twitter.svg" objectFit="cover" alt="twitter" />
     </Box>
   );
 };

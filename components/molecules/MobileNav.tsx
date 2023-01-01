@@ -6,7 +6,11 @@ const MobileNav = () => {
   console.log("toggling", open);
   return (
     <Box display={{ base: "block", md: "none" }}>
-      <Image src="/images/icon-hamburger.svg" onClick={() => toggle()} />
+      <Image
+        src="/images/icon-hamburger.svg"
+        alt="hamburger"
+        onClick={() => toggle()}
+      />
     </Box>
   );
 };
